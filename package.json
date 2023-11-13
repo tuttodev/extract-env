@@ -1,0 +1,35 @@
+{
+  "name": "extract-env",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "module",
+  "bin": {
+    "extract-env": "./dist/index.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "build": "tsup src/index.ts --format cjs,esm --dts"
+  },
+  "keywords": [],
+  "author": {
+    "name": "tuttodev",
+    "email": "tuttodevv@gmail.com",
+    "url": "https://tuttodev.dev/"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "@types/yargs": "^17.0.31",
+    "ts-node-dev": "^2.0.0",
+    "ts-standard": "^12.0.2",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "glob": "^10.3.10",
+    "yargs": "^17.7.2"
+  }
+}
