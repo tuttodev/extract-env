@@ -13,7 +13,15 @@
     "dev": "ts-node-dev src/index.ts",
     "build": "tsup src/index.ts --format cjs,esm --dts"
   },
-  "keywords": [],
+  "keywords": [
+    "extract environments",
+    "env",
+    "environments",
+    "extract",
+    "configuration",
+    "utilities",
+    "file"
+  ],
   "author": {
     "name": "tuttodev",
     "email": "tuttodevv@gmail.com",
